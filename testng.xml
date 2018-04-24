@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="tests">
+	<test  name="Test">
+	<!-- <parameter name="host" value="http://192.168.0.1/wd/hub"/> -->
+	<parameter name="host" value="192.168.0.3"/>
+	<parameter name="browser" value="chrome"/>
+	<parameter name="packageName" value=""/>
+	<parameter name="testName" value=""/>
+	<parameter name="dataSource" value=""/>
+		<classes>
+			<class name="com.subbuchinni.edu.Practice.Demo.ParallelExecutioner" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

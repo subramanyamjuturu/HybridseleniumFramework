@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="host" value="192.168.0.3"/>
+    <parameter name="packageName" value=""/>
+    <parameter name="dataSource" value=""/>
+    <parameter name="testName" value=""/>
+    <classes>
+      <class name="com.subbuchinni.edu.Practice.Demo.ParallelExecutioner">
+        <methods>
+          <include name="executer" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.subbuchinni.edu.Practice.Demo.ParallelExecutioner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
